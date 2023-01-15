@@ -130,7 +130,7 @@
 }
 
 .footer {
-  background-color: gray;
+  background-color: #E5E5E5;
 }
 
 .footer-text {
@@ -269,7 +269,7 @@ body.modal-footer-open {
 .team {
   display: flex;
   flex-wrap: wrap;
-  background-color: gray;
+  background-color: #E5E5E5;
   border-radius: 15px;
 }
 @media screen and (min-width: 768px) {
