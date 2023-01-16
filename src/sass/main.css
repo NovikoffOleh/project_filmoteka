@@ -1,5 +1,10 @@
+ol, ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 /* MODAL */
-.is-hidden {
+/*.is-hidden {
   transform: translateY(-10%);
 }
 
@@ -123,10 +128,27 @@
   .modal__content {
     width: 820px;
   }
-}
+}*/
 
 .hidden {
   overflow: hidden;
+}
+
+.container {
+  padding: 0 20px;
+  width: 100%;
+
+  @media screen and (min-width: 480px) {
+    margin: 0 auto;
+    width: 480px;
+  }
+  @media screen and (min-width: 768px) {
+    width: 768px;
+    padding: 0 70px;
+  }
+  @media screen and (min-width: 1024px) {
+    width: 1024px;
+  }
 }
 
 .footer {
@@ -269,7 +291,7 @@ body.modal-footer-open {
 .team {
   display: flex;
   flex-wrap: wrap;
-  background-color: #E5E5E5;
+  background-color: white;
   border-radius: 15px;
 }
 @media screen and (min-width: 768px) {
