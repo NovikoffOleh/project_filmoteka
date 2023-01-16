@@ -251,6 +251,7 @@ body.modal-footer-open {
 .team-professional {
   font-family: Roboto;
   color: #FF6B08;
+  text-align: center;
 }
 @media screen and (max-width: 480px) {
   .team-professional {
