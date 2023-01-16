@@ -175,7 +175,7 @@ body.modal-footer-open {
 .team {
   display: flex;
   flex-wrap: wrap;
-  background-color: white;
+  background-color: rgb(243, 235, 235);
   border-radius: 15px;
   width: 100%;
 }
@@ -192,7 +192,7 @@ body.modal-footer-open {
   justify-content: space-around;
   padding-top: 30px;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1200px) {
   .team-list {
     display: flex;
     align-items: center;
@@ -239,7 +239,7 @@ body.modal-footer-open {
     width: calc((100% - 120px) / 2);
   }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1200px) {
   .team-item {
     margin: 30px;
     width: calc((100% - 240px) / 4);
