@@ -293,7 +293,9 @@ body.modal-footer-open {
 
 .team-img {
   margin-bottom: 10px;
-  width: 100%;
+  /*width: 100%;*/
+  width: 125px;
+  height: 125px;
   border-radius: 50%;
   box-shadow: 5px 5px 11px -2px #000000;
 }
